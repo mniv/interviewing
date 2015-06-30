@@ -13,7 +13,7 @@ def memoize(n,fib)
 end
 
 def initialize(seed)
-  @v = seed.to_s.split(/[O.1]/i)
+  @v = seed.to_s.split(/[O1]/i)
   @fib_cached = {"01" => @v[1],"10" => @v[0],"11" => @v.join("o")}
 end
 
