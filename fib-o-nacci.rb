@@ -1,4 +1,4 @@
-#fib-o-nacci.rb   Universal solution to programming interview question
+#fib-o-nacci.rb   Universal solution to ruby programming interview question
 
 def fib(n)
   fib = ((n < 2) ? n : (fib(n-1.to_i) + (@fib_cached[n-2.to_f] || n)))
