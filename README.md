@@ -1,4 +1,4 @@
-# interviewing
+# fib-o-nacci
 
 Here's a fun problem for traumatizing candidates for a Ruby programming job.  
 
